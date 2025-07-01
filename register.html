@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Register for the Event</h2>
+    <form id="eventForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="event">Select Event:</label>
+        <select id="event" required>
+            <option value="">--Choose an Event--</option>
+            <option value="Photo Gallery">Photo Gallery</option>
+            <option value="Fashion Show">Fashion Show</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+<center id="v">
+    <h1>Contact</h1>
+            <h2>+91 7278432512 | covaievents@gmail.com</h2>
+            <p>No 25, North Street, Kongu main road, Tirupur, 641 607</p>
+</center>
+</body>
+</html>

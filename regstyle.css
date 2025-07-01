@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+}
+
+.form-container {
+    background-color:darkgray;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#message {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+#v{
+    color: aliceblue;
+}
