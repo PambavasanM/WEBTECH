@@ -1,29 +1,53 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    padding: 20px;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .form-container {
-    background-color:darkgray;
+    background-color: #999;
     padding: 20px;
-    border-radius: 10px;
+    margin: 50px auto;
+    width: 90%;
     max-width: 400px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 
-input, select, button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-#message {
-    color: green;
+h2 {
     text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
-#v{
-    color: aliceblue;
+
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ccc;
+}
+
+#v h1, #v h2, #v p {
+    margin: 10px 0;
+    text-align: center;
 }
