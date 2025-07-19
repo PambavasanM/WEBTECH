@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', 'Comic Neue', cursive;
+    background: linear-gradient(to bottom, #ffefba, #ffffff);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom right, #fff7e6, #ffe0f7);
+    border: 6px double #ff8a65;
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    animation: popIn 1s ease;
+}
+
+@keyframes popIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+h1 {
+    color: #ff4081;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #ffd54f;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    color: #4a148c;
+    margin-bottom: 8px;
+}
+
+input[type="number"] {
+    padding: 14px;
+    width: 80%;
+    font-size: 18px;
+    border: 3px dotted #ba68c8;
+    border-radius: 20px;
+    background-color: #fff3e0;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus {
+    background-color: #e3f2fd;
+    border-color: #4fc3f7;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 18px;
+    background: linear-gradient(to right, #ffcc80, #ff8a65);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ffb74d, #f06292);
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 20px;
+    color: #6a1b9a;
+    background-color: #f3e5f5;
+    border: 3px dashed #ce93d8;
+    border-radius: 20px;
+    font-weight: bold;
+    min-height: 50px;
+}
